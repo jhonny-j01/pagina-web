@@ -1,0 +1,688 @@
+*{margin: 0;padding: 0;
+  font-family: "Josefin Sans", sans-serif;}
+body{background-color: rgb(196, 241, 241);;}
+
+
+.menulogo{
+  background-color: rgb(65, 1, 97);
+  height: 170px;
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+.logo{position: absolute;top: 3%;
+  width: 7%;
+ height: auto;}
+
+ .logo:hover{
+  background-color: #330050;
+ }
+
+h1{color: antiquewhite;
+  font-family: cursive;
+  text-shadow: 2px 2px 1px black;
+  position: absolute;left: 7%;top: 7%;
+  width: 50%;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 200%;
+  }
+  
+
+.botonlogin{
+  display: none;
+   position: absolute;
+   right: 1%;
+   top: 2%;
+    background-color: #1262f7;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+    height: 6%;  ;
+    border: 5px blue;border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+    display: none;
+    margin: 0 auto;
+    font-family: cursive;
+    font-size: 14px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.534);
+    }
+
+.botonlogin:hover{background-color:rgb(37, 0, 68);}  
+
+.busca {
+  display: none;
+  text-align: center;
+ position: absolute;
+ left: 73%;
+ top: 3%;
+ border-radius: 5px;
+ background-color: #12a3f7;
+ color: aliceblue;
+ font-family: cursive;
+ width: 7%;
+ height: 30px;
+ text-shadow: 1px 1px 1px black;
+}
+
+.busca:hover{background-color:rgb(32, 0, 58);}
+
+ form input{
+  display: none;
+ padding: 5px;
+  margin: 5px;
+  width: 25%;
+  position: absolute;
+  top: 2%;
+  left: 45%;
+  text-align: center;
+  border-radius:5px;
+background-color: rgba(155, 245, 215, 0.911);
+font-family: cursive;
+color: aliceblue;}
+
+
+.nav{
+      position: relative;
+      top: -25px;
+      display: inline;
+      background-color: rgb(29, 101, 255);
+      padding: 2px 5px 5px 5px;
+      margin-left: 5px;
+      box-shadow:2px 2px 2px black ;
+      float: left;
+      list-style-type: none;
+      color: antiquewhite;
+      text-shadow: 1px 1px black;
+      font-family:monospace ;
+      border-radius: 5%;
+      text-decoration: none;
+
+    }
+
+    .nav a{
+      text-decoration: none;
+      color: white;
+    }
+
+.nav:hover{background-color: rgb(52, 1, 77);}
+
+.carrito{
+  background-color: #a7dfff;
+  width: 300px;
+  position: absolute;
+  right:1%;
+  display: none;
+  height: 50%;
+  z-index: 10;
+  border-radius: 5%;
+  box-shadow: 2px 2px 2px black;
+}
+
+.imgcarrito{
+  background-color: rgb(182, 244, 247);
+  position: absolute;
+  right: 1%;
+  top: 20%;
+  width: 7%;
+  height: 5%;
+  border-radius: 10px;
+  display: none;
+
+}
+
+.imgcarrito:hover{
+  background-color: rgb(0, 162, 255);
+}
+
+.imgcarrito img{
+  width: 40%;
+  height: 100%;
+}
+
+
+.presentacion{
+  background-color: rgb(65, 1, 97);
+  position: absolute;
+  top: 250px;
+  left: 10%;
+  color: #f7f7f7;
+  width: 70%;
+  margin-left: 50px;
+  z-index: 1;
+  padding: 30px;
+  border-radius: 10px;
+ box-shadow: 2px 2px 2px black;
+}
+
+.presentacion h2{
+  text-align: center;
+  font-family: cursive;
+}
+
+.presentacion p{
+  font-size: 20px;
+}
+
+
+.producto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #f7f7f7; 
+  padding: 20px; 
+  border: 1px solid #ddd; 
+  border-radius: 10px; 
+  width: 250px; 
+  height: auto;
+  margin: 40px; 
+  margin-top: 40;
+  box-shadow: 2px 2px 2px black;
+}
+
+.producto:hover{
+  background-color: #76c5f3;
+}
+
+.nombre-producto {
+  font-family:monospace ;
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+
+.producto-imagen {
+  width: 100%; 
+  height: 150px; 
+  object-fit: cover; 
+  border-radius: 10px 10px 0 0; 
+}
+
+
+.precio-producto {
+  position: relative;
+  font-size: 16px; 
+  font-weight: bold; 
+  color: #340044; 
+  margin: 10px;
+  top: 45px;
+}
+
+.agregar-carrito {
+  position: relative;
+  margin-top: 50px;
+  background-color: rgb(29, 101, 255);
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.agregar-carrito:hover {
+  background-color: #330050; 
+}
+
+.productoCar{
+   margin: 10px;
+   border-bottom: 1px solid #330050;
+   
+}
+
+.productoCar h2{
+  position: relative;
+  left: 100px;
+  top: 30px;
+}
+
+.productoCar p{
+  position: relative;
+  left: 100px;
+  top: -20px;
+}
+
+.productoCar img{
+  width: 75px;
+  position: relative;
+}
+
+.productoCar:hover{
+  background-color: #76c5f3;
+}
+
+.infoProductos{
+  background-color: #ffffff;
+  max-width: 610px;
+  position: absolute;
+  left: 25%;
+  padding: 40px;
+  z-index: 10;
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px black;
+  display: none;
+}
+
+.lugarProductos{
+  background-color: rgb(196, 241, 241);
+  position: relative;
+  left:-30% ;
+  top: 50px;
+  padding: 40px;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-gap:10px;
+  width: auto;
+  border-radius: 1%;
+  background-color: #340044;
+
+}
+
+.creaDivs{
+  position: relative;
+
+}
+
+.info{
+  background-color: #6a5fff;
+position: absolute;
+  left: 7%;
+  top:550px;
+  width: 80%;
+  height: 1300px;
+  padding: 50px;
+  border-radius: 3%;
+  box-shadow: 5px 5px 5px black;
+
+}  
+.info h1{
+  position: absolute;
+  top: 2%;
+  left: 30%;
+  color: black;
+  overflow: hidden;
+  width: 500px;
+  text-overflow: ellipsis;
+  object-position: center;
+  color: white;
+  text-shadow: 2px 2px 2ps black;
+  display: grid;
+  grid-template-areas: 
+  'img img'
+  'txt txt';
+  grid-template-columns: 2fr 1fr;
+}
+
+.info img:hover{
+  background-color: #2d58a8;
+}
+.img1{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 150px;
+  left: 100px;
+}
+.t1{
+  position: absolute;
+  top: 400px;
+}
+
+.img2{
+  position: absolute;
+  left: 700px;
+  top: 150px;
+  width: 250px;
+}
+
+.t2{
+  position: absolute;
+  top: 400px;
+  left :700px;
+}
+
+.img3{
+  position: absolute;
+  top: 550px;
+  width: 200px;
+  left: 100px;
+}
+
+.t3{
+  position: absolute;
+  top: 800px;
+}
+
+.img4{
+  position: absolute;
+  top: 550px;
+  left: 750px;
+  width: 200px;
+}
+
+.t4{
+  position: absolute;
+  left:700px ;
+  top: 800px;
+}
+
+.img5{
+  position: absolute;
+  top:950px;
+  left: 100px;
+  width: 200px;
+
+}
+
+.t5{
+  position: absolute;
+  top: 1220px;
+}
+
+.img6{
+  position: absolute;
+  top:950px;
+  left: 750px;
+  width: 200px;
+}
+
+.t6{
+  position: absolute;
+  top: 1220px;
+  left: 770px;
+
+}
+
+footer{
+  position: absolute;
+  top: 2000px;
+  width: 100%;
+  background-color: black;
+  color: #ddd;
+  height: 30%;
+  padding-top: 3%;
+  margin: 0%;
+}
+
+footer h4{
+  position: absolute;
+  top: 55%;
+  left: 30%;
+}
+
+footer h4:hover{
+  color: #340044;
+}
+.ig{
+  position: absolute;
+  left: 5%;
+}
+
+.wha{
+  position:absolute;
+  left: 23%;
+}
+
+.face{
+  position: absolute;
+  left: 39%;
+}
+
+.tistos{
+  position: absolute;
+  left: 55%;
+}
+
+.correo{
+  position: absolute;
+  left: 73%;
+}
+
+.ig img{
+  width: 30px;
+}
+
+.wha img{
+  width: 30px;
+}
+
+.face img{
+  width: 30px;
+}
+
+.tistos img{
+  width: 30px;
+}
+
+.correo img{
+  width: 30px;
+}
+
+
+.ig a,.face a,.wha a,.tistos a,.correo a{
+  color: #f7f7f7;
+}
+
+.ig a,.face a,.wha a,.tistos a,.correo a:visited{
+  color: #0597f8;
+}
+
+
+
+/*////////////////////////////////////////////////////////////////////*/
+@media (max-width: 768px){
+
+  .menulogo{
+    background-color: rgb(65, 1, 97);
+    height: 170px;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+  }
+  .logo{position: absolute;top: 1%;
+    width: 20%;
+   height: auto;}
+
+   h1{color: antiquewhite;
+    font-family: cursive;
+    text-shadow: 2px 2px 1px black;
+    position: absolute;left: 2%;top: 10%;
+    width: 50%;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 200%;
+   }
+
+      .nav{
+        position: relative;
+        top: -30px;
+        display: inline;
+        background-color: rgb(29, 101, 255);
+        padding: 2px 5px 5px 5px;
+        margin-left: 5px;
+        margin-top: 5px;
+        box-shadow:2px 2px 2px black ;
+        float: left;
+        list-style-type: none;
+        color: antiquewhite;
+        text-shadow: 1px 1px black;
+        font-family:monospace ;
+        border-radius: 5%;
+        text-decoration: none;
+      }
+
+      .presentacion{
+        background-color: rgb(65, 1, 97);
+        position: absolute;
+        top: 250px;
+        left: -2%;
+        color: #f7f7f7;
+        width: 70%;
+        margin-left: 50px;
+        z-index: 1;
+        padding: 30px;
+        border-radius: 10px;
+       box-shadow: 2px 2px 2px black;
+      }
+      
+      .presentacion h2{
+        text-align: center;
+        font-family: cursive;
+      }
+      
+      .presentacion p{
+        font-size: 20px;
+      }
+
+      .lugarProductos{
+        display: none;
+      }
+      .creaDivs{
+        display: none;
+      }
+  
+   .info{
+       position: absolute;
+       left: 0%;
+       top:800px;
+       height: 2050px;
+       padding: 50px;
+       border-radius: 0%;
+       margin: 0%;
+
+    } 
+
+    .info h1{
+      position: absolute;
+      left: 20%;
+    }
+
+    .img1{
+      width: 170px;
+      height: auto;
+      position: absolute;
+      top: 150px;
+      left: 120px;
+    }
+    .t1{
+      position: absolute;
+      top: 333px;
+      left: 30px;
+    }
+
+    .img2{
+      position: absolute;
+      left:80px;
+      top: 450px;
+     width: 250px;
+    }
+
+    .t2{
+      position: absolute;
+      top: 700px;
+      left :75px;
+    }
+
+    .img3{
+      position: absolute;
+      top: 800px;
+      width: 200px;
+     left: 100px;
+    }
+
+    .t3{
+      position: absolute;
+     top: 1020px;
+    }
+
+    .img4{
+      position: absolute;
+      top: 1150px;
+      left: 100px;
+      width: 200px;
+    }
+
+    .t4{
+      position: absolute;
+      top: 1400px;
+      left: 70px;
+    }
+
+    .img5{
+      position: absolute;
+      top:1500px;
+      left: 100px;
+      width: 200px;
+
+    }    
+
+    .t5{
+      position: absolute;
+      top: 1750px;
+      left: 70px;
+    }
+
+  .img6{  
+    position: absolute;
+    top:1850px;
+    left: 100px;
+    width: 200px;
+  }
+  
+  .t6{
+    position: absolute;
+    top: 2050px;
+    left: 110px;
+  
+  }
+  
+
+    footer{
+      position: absolute;
+      top: 3000px;
+      height: 60%;
+     padding-top: 3%;
+      margin: 0%;
+    }
+
+    .ig{
+      position: absolute;
+      left:33%;
+      top: 5%;
+    }
+
+    .wha{
+      position:absolute;
+      left: 33%;
+      top: 20%;
+    }
+
+    .face{
+      position: absolute;
+      left: 33%;
+      top: 35%;
+    }
+
+    .tistos{
+      position: absolute;
+      left: 33%;
+     top: 50%;
+    }
+
+    .correo{
+      position: absolute;
+      left: 33%;
+      top: 65%;
+    }
+
+    footer h4{
+      position: absolute;
+      top: 90%;
+      left: 30%;
+    }
+}
+

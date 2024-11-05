@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jteach/video</title>
+    <link rel="icon" href="/imagenes/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="estiloscapas/estiloscapas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="/src/bundle.js"></script>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+      emailjs.init('QmkFZ38HUHi9S1JpS')
+    </script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="menulogo">
+            <h1 class="titulo">JTEACH</h1>
+            
+            <img src="/imagenes/logo.png" class="logo" alt="Menú desplegable" id="imgLogo" >
+         
+    </header>
+        <nav class="menu">
+            <ul class="nav1">
+                <li class="nav"><a href="/index.html">inicio</a></li>
+                <li class="nav"> <a href="/capas/destacados.html">Destacados</a></li>
+                <li class="nav"> <a href="/capas/accesorios.html">Acccesorios</a></li>
+                <li class="nav"> <a href="/capas/Gamers.html">Gamers</a></li>
+                <li class="nav"> <a href="/capas/Sonido.html">Sonido</a></li>
+                <li class="nav"> <a href="/capas/Video.html">Video</a></li>
+            </ul>
+        </nav>       
+    </div>
+
+    <div class="carrito" id="divCarrito">
+      <ul id="ListaCarrito"></ul>
+      <p>Total: $<span id="Total">0</span></p>
+    <div class="total">
+      <button class="comprar">comprar</button>
+    </div>
+    </div>
+
+
+    <div class="confirmaCompra" id="DivCompra">
+      <button class="Salir"><img src="/imagenes/icons8-cuadro-movimiento-izquierda-64.png" alt=""></button>
+      <h2 class="titulo">Estas a punto de reallizar tu pedido</h2>
+      <ul id=ListaCompra></ul>
+      <p><span id="TotalCompra">0</span></p>
+      <div class="envio">
+        <h2>Información necesaria para el envio</h2>
+        <label for="nombre">Nombre</label>
+          <input type="text" placeholder="Escribe tu nombre" required id="nombre">
+        <label for="ciudad">Ciudad</label>
+        <input type="text" placeholder="Escribe tu ciudad de residencia" required id="ciudad">
+        <label for="barrio">Barrio</label>
+        <input type="text" placeholder="Escribe tu barrio de residencia" required id="barrio">
+        <label for="direccion">Dirección</label id='direcion'>
+        <input type="text" placeholder="Escribe tu dirección" required id="direccion">
+        <label for="telefono">telefono</label>
+        <input type="number" placeholder="Escribe tu numero de telefono" required id="telefono">
+        <button  class="CF" type="submit" id="enviar">confirmar pedido</button>
+      </div>
+
+    </div>
+
+
+    <button id="botonCarrito" class="imgcarrito" ><img src="/imagenes/ImagenCarrito.png"></button> 
+    <div class="lugarProductos" id="lugarProductos">
+       <div class="producto" id="productoPP">
+      <h2 class="nombre-producto">WebCam 4k 60fps logitech MX BRIO</h2>
+       <img src="/imagenes/productos/webcam mx brio.webp" title="sacada de:https://www.logitech.com/es-roam/products/webcams/mx-brio-4k-webcam.960-001548.html" class="producto-imagen">
+      <p class="precio-producto">850.000</p>
+      <button class="agregar-carrito">Agregar al carrito</button>
+    </div>
+
+        <div class="producto" id="productoPP">
+       <h2 class="nombre-producto">WebCam Logitech C922pro HD Stream</h2>
+        <img src="/imagenes/productos/C922 PRO HD STREAM WEBCAM.webp" title="sacada de:https://www.logitech.com/es-roam/products/webcams/c922-pro-stream-webcam.960-001087.html" class="producto-imagen">
+       <p class="precio-producto">350.000</p>
+       <button class="agregar-carrito">Agregar al carrito</button>
+     </div>
+    
+     <div class="producto" id="productoPP">
+        <h2 class="nombre-producto">WebCam Logitech BRIO 100</h2>
+         <img src="/imagenes/productos/brio-100.webp" title="sacada de:https://www.logitech.com/es-roam/products/webcams/brio-100-webcam.960-001586.html" class="producto-imagen">
+        <p class="precio-producto">200.000</p>
+        <button class="agregar-carrito">Agregar al carrito</button>
+      </div>
+
+      <div class="producto" id="productoPP">
+        <h2 class="nombre-producto">Camara Profesional Sony A6400</h2>
+         <img src="/imagenes/productos/sony.webp" title="sacada de:https://www.logitechg.com/es-roam/products/gaming-audio/a10-gen-2.939-002069.html" class="producto-imagen">
+        <p class="precio-producto">4'550.000</p>
+        <button class="agregar-carrito">Agregar al carrito</button>
+      </div>
+
+      <div class="producto" id="productoPP">
+        <h2 class="nombre-producto">Camara Profesional Canon EOS Rebel SL3 DSLR</h2>
+         <img src="/imagenes/productos/canon pro4.png" title="sacada de:https://www.cla.canon.com/cla/es/support/consumer/cameras/eos_cameras/eos_rebel_sl3" class="producto-imagen">
+        <p class="precio-producto">3'250.000</p>
+        <button class="agregar-carrito">Agregar al carrito</button>
+      </div>
+
+      <div class="producto" id="productoPP">
+        <h2 class="nombre-producto">Camara de Seguridad WIFI</h2>
+         <img src="/imagenes/productos/seguridad.jpeg" title="sacada de:https://www.tapo.com/es/product/smart-camera/" class="producto-imagen">
+        <p class="precio-producto">120.000</p>
+        <button class="agregar-carrito">Agregar al carrito</button>
+      </div>
+
+      <div class="producto" id="productoPP">
+        <h2 class="nombre-producto">Monitor HP V27i G5 FHD de 27"</h2>
+         <img src="/imagenes/productos/monitor hp.avif" title="sacada de:https://www.hp.com/co-es/shop/monitor-hp-v27i-g5-fhd-de-27-65p64aa.html?facetref=922ad47d4cc7ade7" class="producto-imagen">
+        <p class="precio-producto">750.000</p>
+        <button class="agregar-carrito">Agregar al carrito</button>
+      </div>
+
+      <div class="producto" id="productoPP">
+        <h2 class="nombre-producto">Monitor portátil HP E14 G4</h2>
+         <img src="/imagenes/productos/monitor portaatil.avif" title="sacada de:https://www.logitechg.com/es-roam/products/gaming-audio/a10-gen-2.939-002069.html" class="producto-imagen">
+        <p class="precio-producto">1'450.000</p>
+        <button class="agregar-carrito">Agregar al carrito</button>
+      </div>
+
+      <div class="producto" id="productoPP">
+        <h2 class="nombre-producto">Monitor HP P204v de 19,5"</h2>
+         <img src="/imagenes/productos/monitor basico.avif" title="sacada de:https://www.hp.com/co-es/shop/monitor-hp-p204v-de-19-5-5rd66aa.html?facetref=922ad47d4cc7ade7" class="producto-imagen">
+        <p class="precio-producto">500.000</p>
+        <button class="agregar-carrito">Agregar al carrito</button>
+      </div>
+
+  </div>
+  <footer>
+    <div class="ig">
+      <img src="/imagenes/instagram.png" title="https://www.flaticon.es/iconos-gratis/logotipo-de-instagram">
+      <a href="https://www.instagram.com/jteach_store?igsh=Zm90eDc3emtlZ3l1 ">@jteach_store</a>
+    </div>
+    <div class="wha">
+      <img src="/imagenes/atencion.png" title="https://www.flaticon.es/iconos-gratis/whatsapp">
+      <a href="https://wa.me/573239721043">3239401047</a>
+    </div>
+    <div class="face">
+      <img src="/imagenes/facebook.png"  title="https://www.flaticon.es/iconos-gratis/facebook">
+      <a href="https://www.facebook.com/profile.php?id=61568513540552&mibextid=JRoKGi">JteachStore</a>
+    </div>
+    <div class="tistos">
+      <img src="/imagenes/tik-tok.png" title="https://www.flaticon.es/iconos-gratis/tik-tok">
+      <a href="http://tiktok.com/@jteach_store">@jteach_oficial</a>
+    </div>
+    <div class="correo">
+      <img src="/imagenes/gmail.png"  title="https://www.flaticon.es/iconos-gratis/gmail">
+      <a href="mailto:jteachstore@gmail.com">jteachstore@gmail.com</a>
+    </div>
+    <h4>©Derechos reservados Jhon Jairo Cely Barrera 2024</h4>
+</footer>
+</body>

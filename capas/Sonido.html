@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jteach/sonido</title>
+    <link rel="icon" href="/imagenes/favicon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="estiloscapas/estiloscapas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="/src/bundle.js"></script>
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script type="text/javascript">
+      emailjs.init('QmkFZ38HUHi9S1JpS')
+    </script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+<header class="menulogo">
+            <h1 class="titulo">JTEACH</h1>
+            
+            <img src="/imagenes/logo.png" class="logo" alt="Menú desplegable" class="menulogo-boton" id="imgLogo">
+         
+    </header>
+        <nav class="menu">
+            <ul class="nav1">
+                <li class="nav"><a href="/index.html">inicio</a></li>
+                <li class="nav"> <a href="/capas/destacados.html">Destacados</a></li>
+                <li class="nav"> <a href="/capas/accesorios.html">Acccesorios</a></li>
+                <li class="nav"> <a href="/capas/Gamers.html">Gamers</a></li>
+                <li class="nav"> <a href="/capas/Sonido.html">Sonido</a></li>
+                <li class="nav"> <a href="/capas/Video.html">Video</a></li>
+            </ul>
+        </nav>       
+    </div>
+
+    <div class="carrito" id="divCarrito">
+        <ul id="ListaCarrito"></ul>
+        <p>Total: $<span id="Total">0</span></p>
+      <div class="total">
+        <button class="comprar">comprar</button>
+      </div>
+      </div>
+
+      <div class="confirmaCompra" id="DivCompra">
+        <button class="Salir"><img src="/imagenes/icons8-cuadro-movimiento-izquierda-64.png" alt=""></button>
+        <h2 class="titulo">Estas a punto de reallizar tu pedido</h2>
+        <ul id=ListaCompra></ul>
+        <p><span id="TotalCompra">0</span></p>
+        <div class="envio">
+          <h2>Información necesaria para el envio</h2>
+          <label for="nombre">Nombre</label>
+            <input type="text" placeholder="Escribe tu nombre" required id="nombre">
+          <label for="ciudad">Ciudad</label>
+          <input type="text" placeholder="Escribe tu ciudad de residencia" required id="ciudad">
+          <label for="barrio">Barrio</label>
+          <input type="text" placeholder="Escribe tu barrio de residencia" required id="barrio">
+          <label for="direccion">Dirección</label id='direcion'>
+          <input type="text" placeholder="Escribe tu dirección" required id="direccion">
+          <label for="telefono">telefono</label>
+          <input type="number" placeholder="Escribe tu numero de telefono" required id="telefono">
+          <button  class="CF" type="submit" id="enviar">confirmar pedido</button>
+        </div>
+  
+      </div>
+  
+
+
+    <button id="botonCarrito" class="imgcarrito" ><img src="/imagenes/ImagenCarrito.png"></button> 
+    <div class="lugarProductos" id="lugarProductos">
+        <div class="producto" id="productoPP">
+            <h2 class="nombre-producto">JBL Charge 5 WI-FI</h2>
+             <img src="/imagenes/productos/JBL_CHARGE5_WIFI.jpg" title="sacada de:https://www.jbl.com.co/CHARGE-5-WIFI.html?dwvar_CHARGE-5-WIFI_color=Black-AM-Current" class="producto-imagen">
+            <p class="precio-producto">1.250.000</p>
+            <button class="agregar-carrito">Agregar al carrito</button>
+          </div>
+    
+          <div class="producto" id="productoPP">
+            <h2 class="nombre-producto">Parlante PortatilJBL Extreme 4</h2>
+             <img src="/imagenes/productos/JBL_XTREME_4_.png" title="sacada de:https://www.jbl.com.co/XTREME-4.html?dwvar_XTREME-4_color=Black-AM-Current" class="producto-imagen">
+            <p class="precio-producto">1.800.000</p>
+            <button class="agregar-carrito">Agregar al carrito</button>
+          </div>
+    
+          <div class="producto" id="productoPP">
+            <h2 class="nombre-producto">JBL Clip 5</h2>
+             <img src="/imagenes/productos/JBL_CLIP_5_.png" title="sacada de:https://www.jbl.com.co/CLIP-5.html?dwvar_CLIP-5_color=Black-AM-Current" class="producto-imagen">
+            <p class="precio-producto">350.000</p>
+            <button class="agregar-carrito">Agregar al carrito</button>
+          </div>      <div class="producto" id="productoPP">
+            <h2 class="nombre-producto">Micrófono Sure SM-4</h2>
+             <img src="/imagenes/productos/shure sm4.jpeg" title="sacada de:https://www.shure.com/es-LATAM/productos/microfonos/sm4?variant=SM4-K" class="producto-imagen">
+            <p class="precio-producto">1.200.000</p>
+            <button class="agregar-carrito">Agregar al carrito</button>
+          </div>
+    
+          <div class="producto" id="productoPP">
+            <h2 class="nombre-producto">Micrófono Hiper X Quadcast S </h2>
+             <img src="/imagenes/productos/hiper x quadcast s.jpeg" title="sacada de:hhttps://row.hyperx.com/es/products/hyperx-quadcast-s-usb-microphone?variant=40910061043917" class="producto-imagen">
+            <p class="precio-producto">450.000</p>
+            <button class="agregar-carrito">Agregar al carrito</button>
+          </div>
+    
+          <div class="producto" id="productoPP">
+            <h2 class="nombre-producto">Microfono Condensador BM-800</h2>
+             <img src="/imagenes/productos/Microfono Condensador BM-800.avif" title="sacada de:https://www.falabella.com.co/falabella-co/product/121353641/Microfono-Condensador-Profesional-Brazo-Ajustable-Bm-800/121353642" class="producto-imagen">
+            <p class="precio-producto">110.000</p>
+            <button class="agregar-carrito">Agregar al carrito</button>
+          </div>      
+          <div class="producto" id="productoPP">
+            <h2 class="nombre-producto">Barra de Sonido BOSE Speaker para TV</h2>
+             <img src="/imagenes/productos/barra.webp" title="sacada de:https://co.tiendasishop.com/products/barra-de-sonido-bose-120v-para-tv-negro" class="producto-imagen">
+            <p class="precio-producto">1.300.000</p>
+            <button class="agregar-carrito">Agregar al carrito</button>
+          </div>
+    
+          <div class="producto" id="productoPP">
+            <h2 class="nombre-producto">Torre de Sonid Sonivox VS-SS2362 7000w</h2>
+             <img src="/imagenes/productos/parlante-inalambrico-torre-de-sonido-bluetooth-sonivox-vsss2590.webp" title="sacada de:https://www.exito.com/parlante-inalambrico-torre-de-sonido-bluetooth-sonivox-vsss2590-101302621-mp/p" class="producto-imagen">
+            <p class="precio-producto">300.000</p>
+            <button class="agregar-carrito">Agregar al carrito</button>
+          </div>
+    
+          <div class="producto" id="productoPP">
+            <h2 class="nombre-producto">Parlante Sonivox VS-SS2378</h2>
+             <img src="/imagenes/productos/Vs-2378015_870x1131.webp" title="sacada de:https://colmetecno.com/products/cabina-profesional-recargable-parlante-bt-sonivox-vs-ss2378" class="producto-imagen">
+            <p class="precio-producto">180.000</p>
+            <button class="agregar-carrito">Agregar al carrito</button>
+          </div>
+  </div>
+  <footer>
+    <div class="ig">
+      <img src="/imagenes/instagram.png" title="https://www.flaticon.es/iconos-gratis/logotipo-de-instagram">
+      <a href="https://www.instagram.com/jteach_store?igsh=Zm90eDc3emtlZ3l1 ">@jteach_store</a>
+    </div>
+    <div class="wha">
+      <img src="/imagenes/atencion.png" title="https://www.flaticon.es/iconos-gratis/whatsapp">
+      <a href="https://wa.me/573239721043">3239401047</a>
+    </div>
+    <div class="face">
+      <img src="/imagenes/facebook.png"  title="https://www.flaticon.es/iconos-gratis/facebook">
+      <a href="https://www.facebook.com/profile.php?id=61568513540552&mibextid=JRoKGi">JteachStore</a>
+    </div>
+    <div class="tistos">
+      <img src="/imagenes/tik-tok.png" title="https://www.flaticon.es/iconos-gratis/tik-tok">
+      <a href="http://tiktok.com/@jteach_store">@jteach_oficial</a>
+    </div>
+    <div class="correo">
+      <img src="/imagenes/gmail.png"  title="https://www.flaticon.es/iconos-gratis/gmail">
+      <a href="mailto:jteachstore@gmail.com">jteachstore@gmail.com</a>
+    </div>
+    <h4>©Derechos reservados Jhon Jairo Cely Barrera 2024</h4>
+</footer>
+    
+</body>
+</html>
